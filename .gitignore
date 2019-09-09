@@ -28,3 +28,6 @@ opam-releases
 
 # Vi temporary files
 *.swp
+
+*.merlin
+*.install

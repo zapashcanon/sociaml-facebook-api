@@ -1,0 +1,5 @@
+(library
+  (name sociaml_facebook_api_endpoints)
+  (public_name sociaml_facebook_api.endpoints)
+  (modules common user)
+  (libraries calendar csv tiny_json uri))

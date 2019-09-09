@@ -1,0 +1,5 @@
+(library
+  (name sociaml_facebook_api)
+  (public_name sociaml_facebook_api)
+  (modules api auth request request_cohttp util)
+  (libraries cohttp cohttp-lwt core_kernel sociaml_facebook_api.endpoints lwt uri))
